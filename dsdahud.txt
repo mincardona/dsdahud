@@ -1,5 +1,5 @@
 doom ex
-stat_totals 2 8 bottom_left
+stat_totals 2 8 bottom_left 1 0 1
 composite_time 2 16 bottom_left
 free_text 2 24 bottom_left
 tracker 2 32 bottom_left
@@ -16,7 +16,7 @@ secret_message 0 76 none
 add_offset 1 top_left
 
 heretic ex
-stat_totals 2 8 bottom_left
+stat_totals 2 8 bottom_left 1 0 1
 composite_time 2 16 bottom_left
 free_text 2 24 bottom_left
 tracker 2 32 bottom_left
@@ -33,7 +33,7 @@ secret_message 0 76 none
 add_offset 1 top_left
 
 hexen ex
-stat_totals 2 8 bottom_left
+stat_totals 2 8 bottom_left 1 0 1
 composite_time 2 16 bottom_left
 free_text 2 24 bottom_left
 tracker 2 32 bottom_left
@@ -95,24 +95,22 @@ secret_message 0 76 none
 add_offset 1 top_left
 
 doom full
-ready_ammo_text 2 8 bottom_left
-health_text 2 16 bottom_left
-armor_text 52 16 bottom_left
-weapon_text 2 24 bottom_left
-stat_totals 2 32 bottom_left
-composite_time 2 40 bottom_left
-free_text 2 48 bottom_left
-tracker 2 56 bottom_left
-ammo_text 256 32 bottom_right
-keys 241 30 bottom_right
+stat_totals 2 8 bottom_left 1 0 1
+big_armor 2 48 bottom_left
+big_health 5 29 bottom_left
+command_display 198 48 bottom_right
+big_ammo 210 27 bottom_right
+ammo_text 256 40 bottom_right
+weapon_text 213 8 bottom_right
+minimap 258 2 top_right 48 48 1024
 render_stats 2 8 top_left
 coordinate_display 2 8 top_left
 line_display 98 8 top_left
-command_display 198 48 bottom_right
 event_split 10 16 top_left
 level_splits 2 2 top
-fps 298 0 top_right
-minimap 264 8 top_right 48 48 1024
+keys 310 2 top_right
+fps 288 0 top_right
+tracker 288 16 top_right
 message 0 0 top_left
 secret_message 0 76 none
 add_offset 1 top_left
@@ -122,7 +120,7 @@ ready_ammo_text 2 8 bottom_left
 health_text 2 16 bottom_left
 armor_text 52 16 bottom_left
 weapon_text 2 24 bottom_left
-stat_totals 2 32 bottom_left
+stat_totals 2 32 bottom_left 1 0 1
 composite_time 2 40 bottom_left
 free_text 2 48 bottom_left
 tracker 2 56 bottom_left
@@ -146,7 +144,7 @@ ready_ammo_text 2 8 bottom_left
 health_text 2 16 bottom_left
 armor_text 52 16 bottom_left
 weapon_text 2 24 bottom_left
-stat_totals 2 32 bottom_left
+stat_totals 2 32 bottom_left 1 0 1
 composite_time 2 40 bottom_left
 free_text 2 48 bottom_left
 tracker 2 56 bottom_left
